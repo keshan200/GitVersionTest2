@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="view report">
+    <link rel="icon" type="image/x-icon" href="assets/logo.jpg">
+    <title>Multimedia</title>
+</head>
+<body>
+
+<!--imag-->
+<img src="../assets/images/large.jpg" alt="iphone 14 pro" title="Apple iphone" width="1000">
+
+<!--picture-->
+<picture>
+    <source media="(min-width:1000px)"  srcset="../assets/images/large.jpg">
+    <source media="(min-width:800px)"   srcset="../assets/images/medium.jpg">
+    <img src="../assets/images/large.jpg" alt="iphone 14 pro small" title="Apple iphone small">
+</picture>
+
+<!--video-->
+<video
+        controls
+       autoplay
+       muted
+       loop
+       poster="../assets/images/img.png"
+       width="700"
+       height="400"
+>
+    <source src="../assets/videos/car.mp4" type="video/mp4">
+    <source src="../assets/videos/car.webm" type="video/webm">
+    
+    <!--track/Sub-->
+    <track label="Arabic" kind="subtitles" src="../assets/videos/subtitles/arabic.vtt" srclang="ar">
+    <track label="English" kind="subtitles" src="../assets/videos/subtitles/sample.vtt" srclang="en">
+</video>
+
+<!--audio-->
+<audio controls>
+    <source src="../assets/audios/audio_file1.mp3" type="audio/mp3">
+    <source src="../assets/audios/audio_file2.mp3" type="audio/mp3">
+</audio>
+
+</body>
+</html>
