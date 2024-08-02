@@ -94,34 +94,123 @@
 
             <br>
             <br>
-
-            <input type="hidden">
-
-
-
-            <!--////////////////////////////////LABLE//////////-->
-
-            <label for="FName">First Name</label><br>
-            <input type="text" id="FName"><br>
-
-            <label for="LName">Last Name</label><br>
-            <input type="text" id="LName" placeholder=""><br>
-
-            <br>
-            <br>
-            <label for="tx"> Text Areas</label><br>
-            <textarea type="text" id="tx" placeholder="Enter Your Text Msg" rows="10" cols="50"></textarea><br>
-
-
-            <label for="p">Choose Language</label>
-            <select id="p">
-                <option value="p1">java</option>
-                <option value="p2">Go</option>
-                <option value="p3">ruby</option>
-                <option value="p4">python</option>
-            </select>
-
         </form>
+
+
+<form action="test.html">
+
+     <h1>Student Form</h1>
+    <label for="FiName">First Name</label><br>
+    <input name="F" type="text" id="FiName"><br>
+
+    <label for="LiName">Last Name</label><br>
+    <input name="L" type="text" id="LiName" placeholder=""><br>
+
+    <br>
+    <br>
+
+    <label for="txt"> Text Areas</label><br>
+    <textarea name="T" type="text" id="txt" placeholder="Enter Your Text Msg" rows="10" cols="50"></textarea><br>
+
+    <br>
+    <br>
+
+
+    <label for="pd">Choose Language</label>
+    <select id="pd">
+        <option value="p1">java</option>
+        <option value="p2">Go</option>
+        <option value="p3">ruby</option>
+        <option value="p4">python</option>
+    </select>
+
+
+    <button type="submit"></button>
+    <button type="reset"></button>
+</form>
+
+<form action ="test.html">
+
+    <label for="p">Program</label><br>
+    <select id="p"  >
+        <option value="j">java</option>
+        <option value="p">sql</option>
+    </select><br><br>
+
+<fieldset>
+    <legend>Select Payment</legend>
+    <label for="r1">Payment Type</label><br>
+    <input type="radio" value="opay" name="payment" id="r1"> <label for="r1">weelky</label><br>
+
+    <input type="radio" value="mpay" name="payment" id ="r2"><label for="r2">monthly</label><br>
+</fieldset>
+
+
+    <br><br>
+    <input type="text" list="dtlst" name="dtlst">
+    <datalist id="dtlst">
+        <option value="Back-end devoloper">Back-end Devoloper</option>
+        <option value="front-end devoloper">Front-end Devoloper</option>
+        <option value="UI">UI/ux</option>
+    </datalist>
+
+
+    <button type="button"></button>
+    <button type="submit"></button>
+    <button type="reset"></button>
+</form><br>
+
+
+<form oninput="result.value = parseInt(a.value)+parseInt(b.value)">
+
+    <input type="number" id="a" name="a">
+    <input type="number" id="b" name="b">
+
+    <output name="result" for="a  b">0</output>
+
+
+</form>
+
+        <ol type="a">
+            <li>hdfi</li>
+            <li>sdf</li>
+        </ol>
+
+<ul type="disc">
+    <li>keshan</li>
+
+
+    <dl> <!--dl discription list-->
+        <dt>Counutries</dt>
+        <dd>Sri lanka</dd><!-- dd Description data-->
+        <dd>india</dd>
+        <dd>new Zealand</dd>
+    </dl>
+
+</ul>
+
+<ol type="1">
+    <li>java</li>
+    <li>python</li>
+    <li>perl</li>
+    <li>c++</li>
+    <li type="">internt technologies</li>
+      <ol type="1">
+
+        <li>HTML</li>
+        <li>css</li>
+        <li>js</li>
+      </ol>
+
+    <ul type="square">
+        <li>Core JavaScrip</li>
+        <li>HTML</li>
+        <li>HTML</li>
+        <li>HTML</li>
+        <li>HTML</li>
+    </ul>
+
+</ol>
 
 </body>
 </html>
